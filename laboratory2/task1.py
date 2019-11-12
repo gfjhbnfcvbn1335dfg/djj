@@ -11,7 +11,7 @@ import re
 
 while True:
     re_integer = re.compile("^[-+]{0,1}\d+$")
-    re_number = re.compile("[+-]?\d+([.][0-9])*")
+    re_number = re.compile("^[+-]?\d+([.][0-9])*$")
 
 
     def validator(pattern, str):
